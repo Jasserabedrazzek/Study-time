@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(60deg , #6334c2 , #c92f9d);
+}
+.contraire {
+    padding: 15px;
+    margin: 50px 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 60%;
+    border-radius: 15px;
+    background-color: #220d34;
+}
+.time {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    
+}
+.clock {
+    text-align: center;
+    padding: 25px;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 75px;
+}
+.buttons {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 80%;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    background-color: white;
+    border-bottom: 15px;
+}
+.btns {
+    text-align: center;
+    justify-content: space-between;
+    
+}
+#start, #stop , #pause {
+    font-size: 55px;
+    color: blue;
+}
+#start {
+    margin: 0 35px;
+    cursor: pointer;
+    
+}
+#pause {
+    margin: 0 35px;
+    cursor: pointer;
+    
+}
+#stop {margin: 0 35px;
+    cursor: pointer;
+    
+}
+#start:hover {
+    color: green;
+}
+#pause:hover {
+    color: orange;
+}
+#stop:hover {
+    color: red;
+}
+.rest-time {
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    
+}
+#rest {
+    color: black;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+
+    
+    
+}
+@media (max-width: 900px) {
+    .contraire {
+        width: 80%;
+        margin: 100px 0;
+    }
+}
+@media (max-width: 665px) {
+    .contraire {
+        width: 90%;
+        margin: 100px 0;
+    }
+    #start, #stop , #pause {
+        font-size: 40px;
+    }
+    #start {
+        margin: 0 10px;
+        cursor: pointer;
+        
+    }
+    #pause {
+        margin: 0 10px;
+        cursor: pointer;
+        
+    }
+    #stop {margin: 0 10px;
+        cursor: pointer;
+        
+    }
+}
